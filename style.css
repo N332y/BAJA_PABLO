@@ -8,7 +8,7 @@ font-weight: normal;
     padding: 0;
 }
 .container{
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -23,14 +23,58 @@ font-weight: normal;
 .border{
     border-width: medium;
     border-style: solid;
-    color: black;
-    
+    color: black;    
 }
 .image img{
     width: 300px;
     height: 300px;
+    object-fit: cover;
 }
 
 .image{
     margin-left: 20px;
+}
+
+.card_age{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 800;
+    font-style: 20px;
+    color: brown;
+    margin: 0 0 30px 0;
+}
+
+.card_zodiac{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: italic;
+    margin: 0 0 30px 0;
+}
+
+.card_profession{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-kerning: calc(30*S);
+    margin: 0 0 30px 0;
+}
+
+.link{
+    color: crimson;
+    font-style: 50px;
+    background: yellow;
+    border-radius: 70px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.link:hover{
+    background-color: violet;
+    color: darkred;
+    border: 2px dotted darkred;
+    box-shadow: dimgray;
+    border-radius: 70px;
+}
+
+h1{
+    text-transform: uppercase;
+    color:brown;
+    letter-spacing: 4.5px;
 }
