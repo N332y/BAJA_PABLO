@@ -6,4 +6,8 @@ font-weight: normal;
 *{
     margin: 0;
     padding: 0;
+}0
+.container{
+    will-change: 1000px;
+    margin: 0 auto;
 }
